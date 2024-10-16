@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  mysql:
+    image: mysql:latest
+    # Uncomment below when on Mac M1
+    # platform: linux/arm64/v8
+    environment:
+      MYSQL_ROOT_PASSWORD: T6ADZUsoavQjl1g/zmiv4TGvgiSG3mrB
+    ports:
+      - 3306:3306
