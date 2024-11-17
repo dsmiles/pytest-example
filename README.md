@@ -28,12 +28,20 @@ python3 --version
 ```
 If that still doesn’t work, then you need to install Python.
 
-Once Python is installed you will need to install the following third-party pacakges:
+Once Python is installed you will need to install the following third-party packages:
 
 ```
 pip3 install mysql-connector-python pytest
 ```
 
+## Running Tests
+
+One of the most common formats is JUnit's XML report form. pytest includes an option that will generate a JUnit XML 
+file for test results.:
+
+```
+python -m pytest --junit-xml report.xml
+```
 
 ## Database target
 
